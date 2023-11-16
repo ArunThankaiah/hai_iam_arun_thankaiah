@@ -10,7 +10,7 @@ const Footer = () => {
       <div className='container mx-auto grid grid-cols-1 md:grid-cols-4 gap-4'>
         <div className='mb-4 md:mb-0'>
           <span className='text-3xl font-semibold text-fuchsia-800 py-2 uppercase '>Logo</span>
-          <p className='text-[16px] my-4'>I specialize in HTML/CSS, JavaScript, React, and Node.js. My passion for coding has enabled me to quickly pick up new technologies, which makes me a valuable asset to any development team. I have a deep understanding of the development process, from design to deployment, and I am confident that I can bring a unique and valuable perspective to any project.</p>
+          {/* <p className='text-[16px] my-4'>I specialize in HTML/CSS, JavaScript, React, and Node.js. My passion for coding has enabled me to quickly pick up new technologies, which makes me a valuable asset to any development team. I have a deep understanding of the development process, from design to deployment, and I am confident that I can bring a unique and valuable perspective to any project.</p> */}
         </div>
         <div>
         <h2 className='text-[22px] font-semibold text-fuchsia-800 py-2 uppercase'>Services</h2>
