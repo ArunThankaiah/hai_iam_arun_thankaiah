@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/hai_iam_arun_thankaiah/static/css/main.19b703d9.css",
+    "main.js": "/hai_iam_arun_thankaiah/static/js/main.a25e08c2.js",
+    "static/media/project-02.png": "/hai_iam_arun_thankaiah/static/media/project-02.2edd72bc8ae095f5614f.png",
+    "static/media/img01.png": "/hai_iam_arun_thankaiah/static/media/img01.2f96cd0e64a85929b80e.png",
+    "static/media/img02.png": "/hai_iam_arun_thankaiah/static/media/img02.2587ff8349c3103e055e.png",
+    "static/media/project-03.png": "/hai_iam_arun_thankaiah/static/media/project-03.8e4bd3fd5c8e4665204d.png",
+    "static/media/project-01.png": "/hai_iam_arun_thankaiah/static/media/project-01.fb2d50408a8120472e22.png",
+    "static/media/project-04.png": "/hai_iam_arun_thankaiah/static/media/project-04.b1b20c20d5af57cc376a.png",
+    "index.html": "/hai_iam_arun_thankaiah/index.html",
+    "main.19b703d9.css.map": "/hai_iam_arun_thankaiah/static/css/main.19b703d9.css.map",
+    "main.a25e08c2.js.map": "/hai_iam_arun_thankaiah/static/js/main.a25e08c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19b703d9.css",
+    "static/js/main.a25e08c2.js"
+  ]
+}
