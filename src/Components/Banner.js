@@ -1,34 +1,37 @@
 import {AiFillGithub} from 'react-icons/ai'
-import {FaInstagram, FaLinkedinIn} from 'react-icons/fa'
-import {FiTwitter} from 'react-icons/fi'
+import {FaInstagram, FaLinkedinIn,FaFacebookSquare} from 'react-icons/fa'
 import img01 from '../asstes/img01.png'
-import AOS from 'aos'
+import Aos from 'aos'
 import 'aos/dist/aos.css'
+import { useEffect } from 'react'
 const Banner = () => {
-  AOS.init({
+ useEffect(()=>{
+  Aos.init({
     easing: 'ease-in-out-quart',
     delay: 0,
     duration: 750
   })
+ },[])
   return (
-    <div  className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
+    <div id='Home'  className="lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg-text-start flex lg:flex-row flex-col-reverse justify-between lg:gap-28 items-center">
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white">
-        <h1 data-aos = "fade-right" className="text-[52px] font-semibold mb-8 leading-normal">Welcome To
-         <span className="text-fuchsia-500">My Website</span></h1>
-        <p data-aos = "fade-left">Loremffasfnodfsankfaskdnkvnjkasvnkvjdnufwfufcbsaijvndsamv dsmnvasdmvsadvkdjsavsdakvjbdsavjavkjavjakvbajkv akva</p>
+      <h2 className='lg:mt-4'>Hello,<span className="text-fuchsia-500"> It's Me</span></h2>
+      <h1 data-aos = "fade-right" className="text-[52px] font-semibold mb-0 leading-normal">Arun Thankaiah </h1>
+      <span className="text-fuchsia-500">Full Stack Web Developer</span>
+       <p data-aos = "fade-left" className='text-center lg:text-start mt-4'>As a full stack web developer, I have a passion for creating engaging, responsive, and user-friendly. I have worked with both front-end and back-end technologies to develop web applications that are both aesthetically pleasing and highly functional. </p>
         <div className="flex mt-8 gap-2">
             <div className="flex items-center justify-center">
                 <div className="flex space-x-2">
-                    <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                    <a href="https://github.com/ArunThankaiah" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                         <AiFillGithub className='text-[28px]'/>
                     </a>
-                    <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                    <a href="https://www.linkedin.com/in/arun-thankaiah-8a6a57267/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                         <FaLinkedinIn className='text-[28px]'/>
                     </a>
-                    <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
-                        <FiTwitter className='text-[28px]'/>
+                    <a href="https://www.facebook.com/arun.chandhu.54" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                        <FaFacebookSquare className='text-[28px]'/>
                     </a>
-                    <a href="" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
+                    <a href="https://www.instagram.com/arun_thankaiah/" className="text-fuchsia-600 hover:text-fuchsia-500 rounded-full glow p-2">
                         <FaInstagram className='text-[28px]'/>
                     </a>
                     
